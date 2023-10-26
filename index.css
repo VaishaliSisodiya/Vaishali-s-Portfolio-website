@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+background-color: rgb(33, 33, 70);
+color: white;
+font-family: 'Poppins',sans-serif;
+}
+/* NAV SECTION */
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(39, 39, 97);
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+
+nav ul li a{
+  text-decoration: none;
+   color:white; 
+    }
+ nav ul li a:hover{
+         color: rgb(107, 153, 155);
+         font-size: 1.01rem;
+          }
+
+/* MAIN HR */
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1px;
+        margin: 40px 60px;
+    }  
+
+    /* LEFT SECTION  */
+
+.left{
+    font-size: 1.5rem ;
+}
+/* FIRST SECTION */
+.firstSection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 55px 0;
+}
+.firstSection >div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2rem;
+   
+}
+.rightSection img{
+    width: 75%;
+    margin:65px 0;
+}
+.purple{
+    color: rgb(92, 57, 124);
+}
+
+.text-grey{
+    color: gray;
+    
+}
+.text-black{
+    color: gray;
+}
+#element {
+    color: rgb(109, 15, 196);
+    
+}
+/* SECOND SECTION */
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+
+}
+.secondSection h1 img{
+    width: 70px;
+    position:relative;
+    left: 2px;
+
+}
+.secondSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+
+}
+.image-top{
+    width: 50px;
+    height: 50px;
+    position:relative;
+    top: -40px;
+    left: -11px;
+
+   
+}
+
+.vertical-title{
+    position: relative;
+    top: 38px;
+    width: 150px;
+    font-size: 14px;
+
+}
+.vertical-desc{
+position: relative;
+top: 56px;
+color: gray;
+width: 173px;
+font-size: 10px;
+}
+
+/* THIRD SECTION */
+
+.thirdSection{
+    max-width: 70vw;
+    margin: auto;
+    height: 80vh;
+}
+.thirdSection h1{
+    font-size: 1.9rem;
+
+}
+.thirdSection h1 img{
+    width: 50px;
+    height: 50px;
+    top: 13px;
+    position:relative;
+    left: 5px;
+}
+.thirdSection .box {
+    background: white;
+    width: 67vw;
+    height: 1.6px;
+    margin: 45px 0;
+    display: flex;
+}
+.thirdSection .vertex {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+
+}
+.vertex-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 17px;
+
+}
+.vertex-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 15px;
+}
+/* FOOTER SECTION  */
+
+footer{
+    background-color:  #0e0e1a;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content:space-evenly ;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
